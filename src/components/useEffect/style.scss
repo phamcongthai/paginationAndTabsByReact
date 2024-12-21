@@ -1,0 +1,28 @@
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+    &__item{
+        width: 15%;
+        padding: 10px;
+        border: 1px solid black;
+        margin: 10px;
+        text-align: center;
+    }
+    &__img img{
+        height: 150px;
+    }
+    &__title{
+        color: salmon;
+    }
+}
+.pagination{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    &__item{
+        padding: 5px 10px;
+        border: 1px solid black;
+        margin-left: 5px;
+    }
+}

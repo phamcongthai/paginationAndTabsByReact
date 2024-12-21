@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+
+.tabs{
+    display: flex;
+    border-bottom: 1px solid black;
+    &__item{
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    margin: 10px;
+    &__item{
+        width: 200px;
+        padding: 10px;
+        border: 1px solid black;
+        margin: 10px;
+        text-align: center;
+    }
+    &__img img{
+        height: 150px;
+    }
+    &__title{
+        color: salmon;
+    }
+}
+.Post{
+    margin: 10px;
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    height: 400px;
+    &__title{
+        color: salmon;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: "Tangerine", serif;
+    }
+    &__body{
+        font-family: "Inria Serif", serif;
+    }
+    &__view{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
+    &__view-icon{
+        margin-right: 5px;
+    }
+}
+.User{
+    margin: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.Pagination{
+    list-style: none;
+    display: flex;
+    &__item{
+        padding: 5px;
+        border: 1px solid black;
+        margin: 5px;
+        cursor: pointer;
+    }
+}
